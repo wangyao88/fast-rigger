@@ -1,4 +1,4 @@
-package com.sxkl.fastrigger.logger;
+package com.sxkl.fastrigger.distributer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

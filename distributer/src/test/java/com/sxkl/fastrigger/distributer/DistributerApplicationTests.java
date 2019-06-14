@@ -1,4 +1,4 @@
-package com.sxkl.fastrigger.logger;
+package com.sxkl.fastrigger.distributer;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class LoggerApplicationTests {
+public class DistributerApplicationTests {
 
 	@Test
 	public void contextLoads() {

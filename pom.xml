@@ -20,6 +20,7 @@
 		<module>author</module>
 		<module>commoner</module>
 		<module>configer</module>
+		<module>distributer</module>
 		<module>gatewayer</module>
 		<module>logger</module>
 		<module>messager</module>

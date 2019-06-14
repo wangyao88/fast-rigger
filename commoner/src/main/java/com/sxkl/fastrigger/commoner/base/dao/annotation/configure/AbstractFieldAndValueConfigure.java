@@ -32,4 +32,3 @@ public abstract class AbstractFieldAndValueConfigure{
         return annotations != null && annotations.length > 0;
     }
 }
-
