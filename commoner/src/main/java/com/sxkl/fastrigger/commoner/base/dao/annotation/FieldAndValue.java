@@ -14,6 +14,7 @@ public class FieldAndValue<Entity extends BaseEntity> {
     private String name;
     private Object value;
     protected Entity sourceEntity;
+    private String fk;
     protected boolean cascade = false;
     protected boolean valid = true;
 

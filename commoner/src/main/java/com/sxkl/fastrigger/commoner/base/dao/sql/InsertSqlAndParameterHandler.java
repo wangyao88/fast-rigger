@@ -86,10 +86,10 @@ public class InsertSqlAndParameterHandler implements SqlAndParameterHandler {
             String columns = StringUtils.append(BaseConstants.SQL_SEPARATOR, manyToMany.getMyIdName(), manyToMany.getOtherIdName());
             String values = initValues(2);
             String sql = MyBatisSQL.builder()
-                    .INSERT_INTO(manyToMany.getMiddleTableName())
-                    .INTO_COLUMNS(columns)
-                    .INTO_VALUES(values)
-                    .build();
+                                   .INSERT_INTO(manyToMany.getMiddleTableName())
+                                   .INTO_COLUMNS(columns)
+                                   .INTO_VALUES(values)
+                                   .build();
             childSqlAndParameter.setSql(sql);
             childSqlAndParameter.setArgs(new Object[]{manyToMany.getMyIdValue(), manyToMany.getOtherIdValue()});
             sqlAndParameter.getChildren().add(childSqlAndParameter);

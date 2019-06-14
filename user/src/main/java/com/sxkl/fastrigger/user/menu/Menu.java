@@ -17,7 +17,7 @@ public class Menu {
     private String url;
     private boolean leaf;
     private String icon;
-    private String parentId;
+    private Menu parentId;
     private List<Menu> children;
     private List<Role> roles;
 }
